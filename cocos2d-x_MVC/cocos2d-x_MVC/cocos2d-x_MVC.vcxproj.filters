@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="test\controller">
+      <UniqueIdentifier>{71c45b12-68bd-48cd-b6f7-1319bf14af1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{1b04919d-5c38-411c-b9b0-b6380c33f4b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\model">
+      <UniqueIdentifier>{7926eb52-276b-41c2-afa9-3cb0cde86661}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test\view">
+      <UniqueIdentifier>{d2c1dec9-8758-4245-aeb6-b05e3c525ce0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Classes\test\controller\GameActivity.cpp">
+      <Filter>test\controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\test\model\GameData.cpp">
+      <Filter>test\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Classes\test\view\GameView.cpp">
+      <Filter>test\view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Classes\test\controller\GameActivity.h">
+      <Filter>test\controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\test\model\GameData.h">
+      <Filter>test\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\test\utils.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="Classes\test\view\GameView.h">
+      <Filter>test\view</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
